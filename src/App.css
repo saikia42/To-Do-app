@@ -1,0 +1,60 @@
+*{
+  font-family: "Ubuntu";
+  user-select: none;
+}
+
+.container{
+  border: 1px solid black;
+  width: 24rem;
+  min-height: 30rem;
+  border-radius: 1rem;
+  padding: 20px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 2px;
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  gap: 5px;
+}
+
+input{
+  padding: 5px 5px;
+  font-size: large;
+  outline: none;
+}
+.addbtn{
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: large;
+  padding: 5px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+.addbtn:hover{
+  background-color: #cccccc;
+  font-weight: 500;
+
+}
+.todoContainer{
+  border: 1px solid pink;
+  height: 20rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.todoInnerContainer{
+  height: 100%;
+  border-radius: 5px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scrollbar-width: none; /* this is to hide the scroll bar(for firefox) */
+}

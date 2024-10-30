@@ -1,0 +1,29 @@
+.container2{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 7px;
+    min-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todos{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.title{
+    font-weight: 500;
+    font-size: large;
+}
+.description{
+    font-size: small;
+}
+.icons{
+    display: flex;
+    font-size: xx-large;
+    gap: 5px;
+    cursor: pointer;
+}
